@@ -7,7 +7,6 @@ import datetime
 import pytz
 from contextlib import contextmanager, redirect_stdout
 import kinqimen
-from kinliuren import kinliuren
 import config
 
 import requests
