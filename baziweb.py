@@ -6,7 +6,6 @@ from io import StringIO
 import datetime
 import pytz
 from contextlib import contextmanager, redirect_stdout
-import config
 
 import requests
 import argparse
