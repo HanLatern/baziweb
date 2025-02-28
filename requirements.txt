@@ -6,3 +6,14 @@ streamlit-aggrid==1.0.5
 kinliuren==0.1.2.5
 eacal==0.0.3
 bidict==0.23.1
+requests
+argparse
+collections
+pprint
+lunar_python 
+colorama 
+datas 
+common 
+openai 
+json
+os
