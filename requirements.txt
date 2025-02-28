@@ -3,12 +3,10 @@ streamlit
 sxtwl
 ephem
 streamlit-aggrid
-kinliuren
 eacal
 bidict
 requests
 argparse
-pprint
 lunar_python 
 colorama 
 datas 
