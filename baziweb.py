@@ -604,19 +604,19 @@ with pan:
         if manual:
             if num == 1:
                 args = [
-                     p[0], p[1], p[0], pp_time,  # year, month, day, time
+                     p[0], p[1], p[2], pp_time,  # year, month, day, time
                      '--start', '1900',            # --start
                      '--end', '2050',              # --end
-                     '-g' , '-n'      # -b, -g, -r, -n
+                     '-g'      # -b, -g, -r, -n
                        ]
 
                 xingbie = ['男']
             else:
                 args = [
-                     p[0], p[1], p[0], pp_time,  # year, month, day, time
+                     p[0], p[1], p[2], pp_time,  # year, month, day, time
                      '--start', '1900',            # --start
                      '--end', '2050',              # --end
-                     '-g'       # -b, -g, -r, -n
+                     '-g'  , '-n'      # -b, -g, -r, -n
                        ]
 
                 xingbie = ['女']
