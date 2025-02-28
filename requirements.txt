@@ -12,5 +12,3 @@ colorama
 datas 
 common 
 openai 
-json
-os
