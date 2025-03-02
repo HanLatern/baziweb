@@ -707,7 +707,7 @@ with pan:
 
             #第一轮
             messages0=[
-                {"role": "user", "content": f"你是一个资深命理师，熟读《穷通宝鉴》，《滴天髓》，《三命通会》，《子平真诠》，《千里命稿》，《五行精纪》，《协纪辨方书》、《果老星宗》、《神峰通考》等一系列命理学著作。现在请你对我给出的八字信息做出专业的格局和用神方面的八字分析：八字的四柱干支信息为{zhus}，大运依次为{dayuns}，第一步大运开始时间为{yun.getStartSolar().toFullString().split()[0]}性别：{xingbie}。本次回答中不需要涉及大运和流年应事。"}
+                {"role":"user","content":f"你是一个资深命理师，熟读《穷通宝鉴》，《滴天髓》，《三命通会》，《子平真诠》，《千里命稿》，《五行精纪》，《协纪辨方书》、《果老星宗》，《神峰通考》等一系列命理学著作。现在请你对我给出的八字信息做出专业的格局和用神方面的八字分析：八字的四柱干支信息为{zhus}，大运依次为{dayuns}，第一步大运开始时间为{yun.getStartSolar().toFullString().split()[0]}，性别：{xingbie}。本次回答中不需要涉及大运和流年应事。"}
             ]
             response = client.chat.completions.create(
                 model = "deepseek-reasoner",
