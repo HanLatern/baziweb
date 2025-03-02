@@ -698,7 +698,7 @@ with pan:
 
 
             # 获取 API 密钥
-            api_key = st.secrets['ds_api']
+            api_key = st.secrets["ds_api"]
             client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
             
             print('格局和用神分析：')
